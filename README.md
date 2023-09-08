@@ -16,12 +16,12 @@ Calculating n in 2^n as an integer our base 2 tool. This is conatianed in the ca
 Using base 2 tool to convert an interger to a binary value. this is contained within the dec_to_bin.py and dec_bin.py
 
 ### Milestone 3: byte generator
-Puting code in to a generator
+Puting code in to a generator. This is the in the byt_gen.py script.
 
 ### Milestone 4
 Refactor and optimize code
 
 
 ### Running instructions
-
+python3 byt_gen.py
 
