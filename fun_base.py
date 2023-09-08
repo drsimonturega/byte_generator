@@ -1,5 +1,5 @@
-# my base 2 tool!
-for t in range(1,65,1):
+# my base 2 function this gives the base plus 1 currently
+def b2_fun(t):
     f = int()
     if t != 1 and t % 2 != 0:
         f = t - (t % 2)
@@ -10,3 +10,4 @@ for t in range(1,65,1):
         f = f // 2
         n = n + 1
     print(f'{n} input: {t}')
+b2_fun(4)
