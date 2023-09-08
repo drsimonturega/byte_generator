@@ -1,6 +1,5 @@
 # my base 2 function this gives the base plus 1 currently
 def b2_fun(t):
-    f = int()
     if t != 1 and t % 2 != 0:
         f = t - (t % 2)
     else:
@@ -24,8 +23,8 @@ def decto_byt(b):
     byte_out = "".join(byte_list[::-1])
     return byte_out
 
-
 ls_byt = [decto_byt(x) for x in range(1,256,1)]
 for i in ls_byt:
     print(i)
+
 
